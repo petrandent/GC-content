@@ -54,7 +54,7 @@ at_mean=np.mean(at_val)
 positions=[]
 for i in range(len(epoch_val)):
     if (epoch_val[i])>(av+std_dev*SD) or epoch_val[i]<av-std_dev*SD:
-        positions.append(i)
+        positions.append(i*win_size)
     else:
         continue
 
