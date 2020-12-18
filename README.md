@@ -1,5 +1,5 @@
 # GC-content
-This app graphically analyzes GC content all over genomes
+This app analyzes GC content all over genomes
 This application calculates and creates a graphical visualization of a genome's GC content.
 First it asks you to import a text or fna file (Fasta files usually have the fna format). This is case sensitive.
 Then you have to define the window size, meaning the number of bases, you want your window to have. 
